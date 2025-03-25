@@ -1,0 +1,75 @@
+/* style.css */
+body {
+    background-image: url(food.jpg);
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  #home, #cuisine-details {
+    padding: 20px;
+  }
+  
+  #search-container {
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #search-button, #back-to-home, #place-order {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  h1{
+    color:white ;
+  }
+  
+  .cuisine-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cuisine-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #cuisine-content img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  #recipe-dropdown {
+    margin-top: 10px;
+  }
+  
+  #recipe-details {
+    margin-top: 20px;
+  }
